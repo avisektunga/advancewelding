@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welding Information Hub</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welding Information Hub</h1>
+        <p>Your complete guide to the world of welding</p>
+    </header>
+
+    <main class="directory-container">
+        <div class="directory-card">
+            <img src="images/review.jpg" alt="Welding Review">
+            <div class="card-content">
+                <h2>Review</h2>
+                <p>A general overview of welding principles and applications.</p>
+            </div>
+        </div>
+        <div class="directory-card">
+            <img src="images/welding_processes.jpg" alt="Welding Processes">
+            <div class="card-content">
+                <h2>Welding Processes</h2>
+                <p>Explore the various methods used to join metals.</p>
+            </div>
+        </div>
+        <div class="directory-card">
+            <img src="images/arc_welding.jpg" alt="Arc Welding">
+            <div class="card-content">
+                <h2>Arc Welding</h2>
+                <p>Detailed information on arc welding techniques.</p>
+            </div>
+        </div>
+        <div class="directory-card">
+            <img src="images/precision_welding.jpg" alt="Precision Welding">
+            <div class="card-content">
+                <h2>Critical and Precision Welding Processes</h2>
+                <p>Learn about specialized welding for critical applications.</p>
+            </div>
+        </div>
+        <div class="directory-card">
+            <img src="images/welding_metallurgy.jpg" alt="Welding Metallurgy">
+            <div class="card-content">
+                <h2>Welding Metallurgy</h2>
+                <p>The science of metals and their behavior during welding.</p>
+            </div>
+        </div>
+        <div class="directory-card">
+            <img src="images/welding_defects.jpg" alt="Welding Defects">
+            <div class="card-content">
+                <h2>Welding Defects</h2>
+                <p>Identifying and understanding common welding flaws.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Welding Information Hub</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
