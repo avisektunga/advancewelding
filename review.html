@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Review: The World of Welding</title>
+    <title>Review: Welding Fundamentals & Joint Design</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <header>
-        <h1>1. Review: The World of Welding</h1>
+        <h1>1. Review: Welding Fundamentals & Joint Design</h1>
         <a href="index.html" class="back-link">← Back to Directory</a>
     </header>
 
     <main class="content-page">
         <article class="theory-section">
-            <h2>Theory: An Introduction to Welding</h2>
+            <!-- Original Review Content Starts Here -->
+            <h2>Theory Part A: An Introduction to Welding</h2>
             <h3>What is Welding?</h3>
             <p>At its core, welding is a fabrication process that joins materials, usually metals or thermoplastics, by using high heat to melt the parts together and allowing them to cool, causing fusion. Think of it as using a localized, high-powered "glue" that is as strong as, or even stronger than, the original material. Welding is different from lower-temperature joining techniques like soldering and brazing, which do not melt the base metal.</p>
             
@@ -39,11 +40,38 @@
             
             <h3>Basic Safety in Welding</h3>
             <p>Welding can be hazardous if proper precautions are not taken. The intense heat and light from the welding arc can cause severe burns and "arc eye," a painful eye condition. Therefore, proper Personal Protective Equipment (PPE) is non-negotiable. This includes a welding helmet, flame-resistant clothing, leather gloves, and proper ventilation.</p>
+
+            <!-- Joint Design Content Starts Here -->
+            <hr style="margin: 2rem 0;">
+            <h2>Theory Part B: Joint Design & Preparation</h2>
+            <h3>What is Weld Joint Design and Why is it Important?</h3>
+            <p>Before a single spark is struck, the success of a weld is determined by how the metal pieces are prepared and arranged. <strong>Joint design</strong> is the process of defining the shape and dimensions of the edges of the materials to be joined.</p>
+            <p>Proper joint design ensures:</p>
+             <ul>
+                <li><strong>Strength:</strong> The weld is as strong as, or stronger than, the base metal.</li>
+                <li><strong>Complete Penetration:</strong> The weld metal fuses through the entire thickness of the joint, leaving no gaps.</li>
+                <li><strong>Accessibility:</strong> The welder has enough physical space to manipulate the torch or electrode to create a sound weld.</li>
+                <li><strong>Cost-Effectiveness:</strong> Using the right joint design avoids wasting filler metal and time.</li>
+            </ul>
+            
+            <h3>The Five Basic Types of Weld Joints</h3>
+            <p><em>(It is highly recommended to find simple diagrams for these joints to add to your site).</em></p>
+            <p><strong>1. Butt Joint:</strong> The two pieces of metal are placed in the same plane, with their edges meeting end-to-end. This is common for welding plates and pipes.</p>
+            <p><strong>2. Lap Joint:</strong> The two pieces of metal overlap each other. The weld is typically placed along the edge of one or both pieces.</p>
+            <p><strong>3. T-Joint (or Tee Joint):</strong> The edge of one piece is welded to the surface of another piece at a 90-degree angle, forming a "T" shape. Used for frames and structural parts.</p>
+            <p><strong>4. Corner Joint:</strong> The corners of two pieces are joined, forming an "L" shape. Used for building boxes, tanks, and frames.</p>
+            <p><strong>5. Edge Joint:</strong> The edges of two (or more) pieces are placed side-by-side, and the common edges are welded together. Generally used for thin materials.</p>
+
+            <h3>Types of Welds (Edge Preparation)</h3>
+            <p>For thicker materials, the edges must be shaped to create a groove for the weld metal to fill. Common preparations include V-Groove, Double V-Groove (forming an "X" shape), and U-Groove designs.</p>
+
         </article>
 
         <section class="quiz-section">
             <h2>Test Your Knowledge</h2>
-            <form id="quiz-form" data-answers='["c", "c", "b", "b"]'>
+            <!-- IMPORTANT: The data-answers attribute now contains 8 answers -->
+            <form id="quiz-form" data-answers='["c", "c", "b", "b", "c", "a", "b", "d"]'>
+                <!-- Questions from original Review quiz -->
                 <div class="question">
                     <p>1. What is the primary purpose of welding?</p>
                     <label><input type="radio" name="q1" value="a"> To cut metal</label>
@@ -71,6 +99,35 @@
                     <label><input type="radio" name="q4" value="b"> Welding helmet with a dark filter</label>
                     <label><input type="radio" name="q4" value="c"> A baseball cap</label>
                     <label><input type="radio" name="q4" value="d"> Sunglasses</label>
+                </div>
+                <!-- Questions from Joint Design quiz -->
+                 <div class="question">
+                    <p>5. What is the primary reason for using a specific joint design?</p>
+                    <label><input type="radio" name="q5" value="a"> To make the final product look good</label>
+                    <label><input type="radio" name="q5" value="b"> To use as much filler metal as possible</label>
+                    <label><input type="radio" name="q5" value="c"> To ensure strength and complete penetration</label>
+                    <label><input type="radio" name="q5" value="d"> To make the metal easier to cut</label>
+                </div>
+                <div class="question">
+                    <p>6. A joint formed by placing one piece of metal on top of another at a 90-degree angle in the middle of the plate is called a:</p>
+                    <label><input type="radio" name="q6" value="a"> T-Joint</label>
+                    <label><input type="radio" name="q6" value="b"> Lap Joint</label>
+                    <label><input type="radio" name="q6" value="c"> Corner Joint</label>
+                    <label><input type="radio" name="q6" value="d"> Butt Joint</label>
+                </div>
+                <div class="question">
+                    <p>7. Why would a welder use a V-groove preparation instead of a simple square groove?</p>
+                    <label><input type="radio" name="q7" value="a"> To weld very thin sheet metal</label>
+                    <label><input type="radio" name="q7" value="b"> To achieve full penetration on thicker materials</label>
+                    <label><input type="radio" name="q7" value="c"> Because it requires less skill</label>
+                    <label><input type="radio" name="q7" value="d"> To cool the weld down faster</label>
+                </div>
+                <div class="question">
+                    <p>8. A joint where two pieces of metal are placed on top of each other in an overlapping fashion is called a:</p>
+                    <label><input type="radio" name="q8" value="a"> Butt Joint</label>
+                    <label><input type="radio" name="q8" value="b"> T-Joint</label>
+                    <label><input type="radio" name="q8" value="c"> Corner Joint</label>
+                    <label><input type="radio" name="q8" value="d"> Lap Joint</label>
                 </div>
                 <button type="submit" id="submit-btn">Check Answers</button>
             </form>
