@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 3: Arc Welding - The Core Concepts</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Module 3: Arc Welding - The Core Concepts</h1>
+        <a href="index.html" class="back-link">← Back to Directory</a>
+    </header>
+
+    <main class="content-page">
+        <article class="theory-section">
+            <p>Welcome to the control room of arc welding. This module covers the fundamental choices a welder makes that determine the success, strength, and quality of a weld. Understanding these concepts is the difference between simply melting metal and truly engineering a strong joint.</p>
+
+            <!-- ======================= EQUIPMENT ======================= -->
+            <h2>Equipment and Power Sources</h2>
+            <p>An arc welding setup consists of more than just a torch. The "engine" of the whole operation is the power source, which takes high-voltage, low-current electricity from the wall and transforms it into low-voltage, high-current electricity suitable for welding.</p>
+            <img src="images/power_sources.jpg" alt="A large, old transformer welder next to a compact, modern inverter welder." style="border-radius: 8px; margin: 1rem 0;">
+            <h4>Types of Power Sources:</h4>
+            <ul>
+                <li><strong>Transformers:</strong> The classic workhorse. These are big, heavy, and simple machines containing a large transformer to step down the voltage. They are extremely durable but less energy-efficient.</li>
+                <li><strong>Inverters:</strong> The modern standard. Inverters use sophisticated electronics to convert power. They are significantly smaller, lighter, and more energy-efficient. They also offer precise control over the arc, enabling advanced features like pulsing.</li>
+            </ul>
+            <h4>Other Key Equipment:</h4>
+            <p>The system also includes the **electrode holder** (for SMAW) or **welding gun** (for GMAW/FCAW), a **work clamp** (ground clamp) to complete the electrical circuit, and heavy-duty **welding cables**.</p>
+            
+            <hr>
+
+            <!-- ======================= POLARITY ======================= -->
+            <h2>Choice of Polarity & Arc Characteristics</h2>
+            <p>Polarity is simply the direction of current flow in a DC circuit. This choice has a massive impact on the weld because it determines where the majority of the heat is focused.</p>
+            <img src="images/polarity_diagram.png" alt="A diagram showing electron flow for DCEP and DCEN." style="border-radius: 8px; margin: 1rem 0;">
+            
+            <h3>DCEN (Direct Current Electrode Negative)</h3>
+            <p>Also known as "Straight Polarity." The electrode is negative, and the workpiece is positive. Electrons flow from the electrode *to* the workpiece.
+            <ul>
+                <li><strong>Effect:</strong> Roughly two-thirds of the heat is generated at the workpiece.</li>
+                <li><strong>Result:</strong> Deeper penetration, faster travel speeds, and a narrower weld bead. The electrode melts slower.</li>
+                <li><strong>Practical Example:</strong> A welder uses DCEN with a TIG torch to get deep penetration when welding thick stainless steel.</li>
+            </ul>
+
+            <h3>DCEP (Direct Current Electrode Positive)</h3>
+            <p>Also known as "Reverse Polarity." The electrode is positive, and the workpiece is negative. Electrons flow from the workpiece *to* the electrode.
+            <ul>
+                <li><strong>Effect:</strong> Roughly two-thirds of the heat is focused on the electrode.</li>
+                <li><strong>Result:</strong> Faster melting of the electrode (higher deposition rate), less penetration, and a wider weld bead. This polarity also has a "cleaning action" that helps remove oxides from the metal surface.</li>
+                <li><strong>Practical Example:</strong> A welder uses DCEP for Stick (SMAW) or MIG (GMAW) welding on thin sheet metal to avoid burning through. The higher deposition rate quickly fills the joint.</li>
+            </ul>
+            
+            <h3>AC (Alternating Current)</h3>
+            <p>The current switches rapidly between DCEN and DCEP.
+            <ul>
+                <li><strong>Effect:</strong> A balance between the two DC polarities.</li>
+                <li><strong>Result:</strong> Provides good penetration while also providing the cleaning action of DCEP.</li>
+                <li><strong>Practical Example:</strong> AC is essential for TIG welding aluminum. Aluminum has a tough, high-melting-point oxide layer. The DCEP portion of the AC cycle blasts this oxide layer away, allowing the DCEN portion to melt the base metal.</li>
+            </ul>
+            
+            <h4>Arc Characteristics: The Plasma Jet</h4>
+            <p>The welding arc isn't just a spark; it's a sustained column of **plasma**—a superheated gas of ions and electrons—that can reach temperatures over 10,000°F (5,500°C). This intense, focused heat instantly melts the metal. The stability of this plasma jet is key to a good weld.</p>
+
+            <hr>
+
+            <!-- ======================= METAL TRANSFER ======================= -->
+            <h2>Modes of Metal Transfer (for GMAW/MIG)</h2>
+            <p>In wire-feed processes like MIG welding, "metal transfer" describes how the filler metal from the wire gets across the arc and into the weld pool. The mode of transfer depends mainly on the voltage, amperage, and shielding gas.</p>
+            <img src="images/metal_transfer_modes.png" alt="A diagram illustrating Short-Circuit, Globular, and Spray transfer modes." style="border-radius: 8px; margin: 1rem 0;">
+            <ul>
+                <li><strong>Short-Circuit Transfer:</strong> This is the lowest-energy mode. The wire physically touches the weld pool, creating a short circuit. The current surges, melting the wire like a fuse and depositing a droplet. The arc re-ignites, and the cycle repeats hundreds of time per second. It's like a tiny, controlled "drip, drip, drip."
+                    <br><strong>Practical Example:</strong> Welding a car exhaust pipe. The low heat input prevents burning through the thin metal.
+                </li>
+                <li><strong>Globular Transfer:</strong> An intermediate, often undesirable mode. The voltage is too high for short-circuit but too low for spray. Irregular, large "globs" of metal are propelled across the arc, resulting in a lot of spatter.</li>
+                <li><strong>Spray Transfer:</strong> The high-energy mode. The voltage and amperage are high enough that the wire's tip melts into a fine, directed stream of tiny droplets that "spray" across the arc. It's very smooth, fast, and spatter-free but generates a lot of heat, making it suitable only for thicker metal in the flat and horizontal positions.
+                    <br><strong>Practical Example:</strong> A robotic welder in a factory uses spray transfer to rapidly weld thick steel plates for heavy machinery.
+                </li>
+            </ul>
+
+            <hr>
+            
+            <!-- ======================= WELDING POSITIONS ======================= -->
+            <h2>Welding Positions</h2>
+            <p>Gravity is a welder's constant challenge because molten metal likes to drip. Welding positions describe the orientation of the weld joint relative to the ground. They are classified by numbers (1, 2, 3, 4) and letters (F for Fillet, G for Groove).</p>
+            <img src="images/welding_positions.jpg" alt="A diagram showing a welder working in the four main positions: Flat, Horizontal, Vertical, and Overhead." style="border-radius: 8px; margin: 1rem 0;">
+            <ul>
+                <li><strong>1F/1G - Flat:</strong> The easiest position. The welder works from the top of the joint, and gravity helps pull the molten metal into it.</li>
+                <li><strong>2F/2G - Horizontal:</strong> The weld axis is horizontal. The welder must fight the tendency for the metal to sag.</li>
+                <li><strong>3F/3G - Vertical:</strong> The weld axis is vertical. The welder must use specific techniques (like welding "uphill" or "downhill") to prevent the metal from running out of the joint.</li>
+                <li><strong>4. 4F/4G - Overhead:</strong> The most difficult and dangerous position. The welder is working underneath the joint, fighting gravity completely. Skill and proper technique are critical to creating a sound weld and avoiding falling molten metal.</li>
+            </ul>
+
+            <hr>
+
+            <!-- ======================= ELECTRODE SELECTION ======================= -->
+            <h2>Electrode Selection (Focus on SMAW)</h2>
+            <p>Choosing the right electrode is like a chef choosing the right knife and ingredients. The electrode must be compatible with the base metal and suitable for the application. The classification system printed on each SMAW electrode tells you everything you need to know.</p>
+            <img src="images/electrode_code.jpg" alt="A close-up of an E7018 stick electrode showing the printed classification code." style="border-radius: 8px; margin: 1rem 0;">
+            <h4>Decoding the AWS Classification: E7018</h4>
+            <ul>
+                <li><strong>E:</strong> Stands for Electrode.</li>
+                <li><strong>70:</strong> The first two digits indicate the minimum tensile strength of the weld metal in thousands of pounds per square inch (psi). So, "70" means 70,000 psi.</li>
+                <li><strong>1:</strong> The third digit indicates the possible welding positions. 1 = All positions (Flat, Horizontal, Vertical, Overhead). 2 = Flat and Horizontal only.</li>
+                <li><strong>8:</strong> The last digit is the most complex. It indicates the type of flux coating, the polarity to use, and other characteristics. An "8" here specifies a low-hydrogen, iron powder coating that runs on DCEP.</li>
+            </ul>
+            <p><strong>Practical Example:</strong> A welder must join a critical structural beam on a building. They choose an **E7018** electrode. Why? It provides a strong (<strong>70</strong>ksi) weld, can be used in any position (<strong>1</strong>) they might encounter on site, and its low-hydrogen flux (<strong>8</strong>) prevents hydrogen-induced cracking, which is a major concern in structural steel.</p>
+        </article>
+
+        <!-- ======================= QUIZ ======================= -->
+        <section class="quiz-section">
+            <h2>Test Your Knowledge</h2>
+            <form id="quiz-form" data-answers='["c", "a", "b", "d", "c", "a", "d", "b", "c"]'>
+                <div class="question">
+                    <p>1. What is the primary advantage of a modern inverter power source over an old transformer?</p>
+                    <label><input type="radio" name="q1" value="a"> It is much heavier.</label>
+                    <label><input type="radio" name="q1" value="b"> It can only run on DC power.</label>
+                    <label><input type="radio" name="q1" value="c"> It is lighter, more efficient, and offers more control.</label>
+                    <label><input type="radio" name="q1" value="d"> It does not require a work clamp.</label>
+                </div>
+                <div class="question">
+                    <p>2. A welder is working on a very thin car body panel and wants to minimize the risk of burning through. Which polarity is best?</p>
+                    <label><input type="radio" name="q2" value="a"> DCEP (Electrode Positive)</label>
+                    <label><input type="radio" name="q2" value="b"> DCEN (Electrode Negative)</label>
+                    <label><input type="radio" name="q2" value="c"> AC (Alternating Current)</label>
+                    <label><input type="radio" name="q2" value="d"> No polarity is needed.</label>
+                </div>
+                <div class="question">
+                    <p>3. If a welder needs the deepest possible penetration for welding thick material, which polarity should they choose?</p>
+                    <label><input type="radio" name="q3" value="a"> DCEP (Electrode Positive)</label>
+                    <label><input type="radio" name="q3" value="b"> DCEN (Electrode Negative)</label>
+                    <label><input type="radio" name="q3" value="c"> AC (Alternating Current)</label>
+                    <label><input type="radio" name="q3" value="d"> High Frequency</label>
+                </div>
+                <div class="question">
+                    <p>4. The visible, glowing part of a welding arc is a superheated column of gas called:</p>
+                    <label><input type="radio" name="q4" value="a"> Smoke</label>
+                    <label><input type="radio" name="q4" value="b"> Fire</label>
+                    <label><input type="radio" name="q4" value="c"> A vacuum</label>
+                    <label><input type="radio" name="q4" value="d"> Plasma</label>
+                </div>
+                <div class="question">
+                    <p>5. Which mode of metal transfer is characterized by the wire touching the weld pool in a "drip, drip, drip" fashion with low heat?</p>
+                    <label><input type="radio" name="q5" value="a"> Spray Transfer</label>
+                    <label><input type="radio" name="q5" value="b"> Globular Transfer</label>
+                    <label><input type="radio" name="q5" value="c"> Short-Circuit Transfer</label>
+                    <label><input type="radio" name="q5" value="d"> Pulsed Transfer</label>
+                </div>
+                 <div class="question">
+                    <p>6. A robot welding thick steel plates in a factory would most likely use which high-speed, high-heat transfer mode?</p>
+                    <label><input type="radio" name="q6" value="a"> Spray Transfer</label>
+                    <label><input type="radio" name="q6" value="b"> Globular Transfer</label>
+                    <label><input type="radio" name="q6" value="c"> Short-Circuit Transfer</label>
+                    <label><input type="radio" name="q6" value="d"> Manual Transfer</label>
+                </div>
+                <div class="question">
+                    <p>7. Which welding position is considered the most difficult because you are working directly against gravity?</p>
+                    <label><input type="radio" name="q7" value="a"> 1G (Flat)</label>
+                    <label><input type="radio" name="q7" value="b"> 2G (Horizontal)</label>
+                    <label><input type="radio" name="q7" value="c"> 3G (Vertical)</label>
+                    <label><input type="radio" name="q7" value="d"> 4G (Overhead)</label>
+                </div>
+                 <div class="question">
+                    <p>8. In the electrode classification "E7018," what does the "70" signify?</p>
+                    <label><input type="radio" name="q8" value="a"> The recommended amperage.</label>
+                    <label><input type="radio" name="q8" value="b"> The minimum tensile strength is 70,000 psi.</label>
+                    <label><input type="radio" name="q8" value="c"> The length of the electrode.</label>
+                    <label><input type="radio" name="q8" value="d"> The type of flux.</label>
+                </div>
+                <div class="question">
+                    <p>9. In the electrode classification "E7018," what does the "1" signify?</p>
+                    <label><input type="radio" name="q9" value="a"> It is for use with AC only.</label>
+                    <label><input type="radio" name="q9" value="b"> It requires a special holder.</label>
+                    <label><input type="radio" name="q9" value="c"> It can be used in all welding positions.</label>
+                    <label><input type="radio" name="q9" value="d"> It is a low-hydrogen electrode.</label>
+                </div>
+
+                <button type="submit" id="submit-btn">Check Answers</button>
+            </form>
+            <div id="quiz-results"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Welding Information Hub</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
