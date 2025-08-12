@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 5: Welding Metallurgy - The Science of the Weld</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Module 5: Welding Metallurgy - The Science of the Weld</h1>
+        <a href="index.html" class="back-link">&larr; Back to Directory</a>
+    </header>
+
+    <main class="content-page">
+        <article class="theory-section">
+            <p>Welcome to the secret world inside the metal. Why do some welds crack while others are strong? Why does one metal warp and twist while another behaves perfectly? The answers lie in metallurgy—the science of how welding's intense heat changes a metal's very personality.</p>
+
+            <!-- ======================= HAZ ======================= -->
+            <h2>The Crime Scene of the Weld: The Heat Affected Zone (HAZ)</h2>
+            <p>Imagine you toast a slice of bread. You have three distinct areas: the completely burnt part (the char), the warm, soft, and unchanged bread far away, and the area in between that isn't burnt but has become dry, crispy, and brittle. That middle area is the Heat Affected Zone.</p>
+            <img src="images/haz_diagram.png" alt="A diagram showing the Fusion Zone, the Heat Affected Zone (HAZ), and the unaffected Parent Metal." style="border-radius: 8px; margin: 1rem 0;">
+            <p>In a weld, the same thing happens:</p>
+            <ul>
+                <li><strong>The Fusion Zone (Weld Metal):</strong> The part that actually melted (the char).</li>
+                <li><strong>The Parent Metal:</strong> The unaffected base metal far from the heat (the soft bread).</li>
+                <li><strong>The Heat Affected Zone (HAZ):</strong> The area of parent metal right next to the weld that didn't melt but got hot enough for its internal crystal structure (microstructure) to change.</li>
+            </ul>
+            <h4>Why the HAZ is so Important</h4>
+            <p>The HAZ is often the weakest link in the chain. The rapid heating from the arc followed by rapid cooling can create a hard, brittle microstructure in this zone. This is where most welding-related failures and cracks begin. A skilled welder isn't just focused on the molten puddle; they are actively managing the HAZ.</p>
+            
+            <hr>
+
+            <!-- ======================= PARAMETERS ======================= -->
+            <h2>The Metal Chef: Effect of Process Parameters</h2>
+            <p>Think of a welder as a chef and the metal as their ingredients. The welding parameters are the recipe's instructions—the heat of the oven and the cooking time. Changing them dramatically affects the final dish.</p>
+            <img src="images/weld_preheating.jpg" alt="A welder using a torch to preheat a thick piece of steel before welding." style="border-radius: 8px; margin: 1rem 0;">
+            <ul>
+                <li><strong>Heat Input (Current/Voltage):</strong> This is the oven's temperature. Too much heat can "overcook" the metal, causing warping, a large brittle HAZ, or even melting through. Too little heat results in an "undercooked" weld with poor fusion.</li>
+                <li><strong>Travel Speed:</strong> This is the cooking time. Moving too fast doesn't give the heat enough time to penetrate properly. Moving too slow puts too much heat into one area, enlarging the HAZ and increasing distortion.</li>
+                <li><strong>Preheating & Post-Weld Heat Treatment (PWHT):</strong> This is advanced cooking. <strong>Preheating</strong> is like warming up a cast-iron skillet before cooking. Heating the entire part before welding slows down the cooling rate after welding, which prevents the HAZ from becoming brittle. <strong>PWHT</strong> is like letting a steak rest after cooking. It's a controlled heating process after welding to relieve stresses and soften the HAZ.</li>
+            </ul>
+
+            <hr>
+
+            <!-- ======================= WELDABILITY ======================= -->
+            <h2>The Personalities of Metal: Weldability of Different Materials</h2>
+            <p>Weldability is a measure of a metal's ability to be welded without defects. Every metal has a unique personality and presents different challenges.</p>
+
+            <h3>Plain Carbon Steel: The Dependable Workhorse</h3>
+            <p>This is the most common metal you'll weld. Its personality depends entirely on its carbon content.</p>
+            <ul>
+                <li><strong>The Challenge:</strong> Low-carbon ("mild") steel is very forgiving and easy to weld. But as carbon content increases, the steel becomes harder and the HAZ becomes extremely brittle when cooled quickly, leading to cracking.</li>
+                <li><strong>The Story:</strong> Welding a mild steel fence post is easy. But imagine welding a high-carbon steel axe head. If you just weld it and let it cool, the HAZ will become as brittle as glass and could crack the first time you use it.</li>
+                <li><strong>The Solution:</strong> For higher carbon steels, you MUST use preheating and often post-heating to slow the cooling rate, preventing the formation of the brittle microstructure (called Martensite).</li>
+            </ul>
+
+            <h3>Stainless Steel: The Clean Freak Diva</h3>
+            <p>Stainless steel is prized for its looks and corrosion resistance, but it's a diva in the workshop. It demands to be kept perfectly clean and hates being overheated.</p>
+            <ul>
+                <li><strong>The Challenges:</strong> 1) It warps significantly more than carbon steel when heated. 2) If held at a high temperature for too long, the chromium (which makes it stainless) can get tied up, "sensitizing" the HAZ and allowing it to rust. 3) It must be perfectly clean; any contamination will ruin the weld.</li>
+                <li><strong>The Story:</strong> You're TIG welding pipes for a high-end dairy. You must keep your heat input low and move quickly to prevent warping. You must also "back-purge" the inside of the pipe with argon gas to prevent it from getting contaminated by air, which would ruin its sanitary quality.</li>
+                <li><strong>The Solution:</strong> Use low heat input, precise travel speed, clamp the material well to control warping, and maintain absolute cleanliness.</li>
+            </ul>
+
+            <h3>Cast Iron: The Brittle Old Antique</h3>
+            <p>Welding cast iron is less like welding and more like performing surgery on a fragile antique. It's full of carbon in the form of graphite flakes, making it inherently brittle and prone to cracking when stressed.</p>
+            <ul>
+                <li><strong>The Challenge:</strong> It has almost zero ductility (it doesn't stretch, it just breaks). The extreme temperature shock of a welding arc will cause it to crack almost every time unless you take extreme precautions.</li>
+                <li><strong>The Story:</strong> Your grandfather's antique tractor has a cracked engine block made of cast iron. You can't just zap it with a welder. You must gently preheat the entire heavy casting to several hundred degrees. You then use special, expensive nickel-based electrodes (which are more ductile) to make small, short welds. Finally, you must wrap the entire block in insulating blankets to allow it to cool down as slowly as possible over many hours. Any rush in the process will lead to more cracks.</li>
+                <li><strong>The Solution:</strong> Slow, extensive preheating; use specialized nickel filler metals; short stitch welds; and extremely slow, controlled cooling.</li>
+            </ul>
+
+            <h3>Aluminium: The Lightweight Champion with a Tough Shield</h3>
+            <p>Aluminium is light, strong, and corrosion-resistant, but it's a tricky opponent for a welder.</p>
+            <ul>
+                <li><strong>The Challenges:</strong> 1) It's covered in an invisible, tough "skin" of aluminum oxide. This oxide melts at a temperature almost three times higher than the aluminum underneath! You must break through this skin before you can weld. 2) It conducts heat extremely well, so it robs heat from the weld pool, requiring very high heat input.</li>
+                <li><strong>The Story:</strong> You're building a custom aluminum boat hull. First, you must scrub the surface with a stainless steel wire brush to break up the oxide layer. Then, you use an AC TIG welder. The "cleaning" portion of the AC cycle blasts the remaining oxide away, while the "penetrating" portion melts the aluminum itself. You have to use a lot of amps to pump heat into the part faster than it can be conducted away.</li>
+                <li><strong>The Solution:</strong> Thorough mechanical cleaning, using AC polarity for its cleaning action (in TIG), and using high heat input to overcome its thermal conductivity.</li>
+            </ul>
+        </article>
+
+        <!-- ======================= QUIZ ======================= -->
+        <section class="quiz-section">
+            <h2>Test Your Knowledge</h2>
+            <form id="quiz-form" data-answers='["b", "c", "a", "d", "c", "b", "d", "a", "c", "b"]'>
+                <div class="question">
+                    <p>1. In welding, the area of base metal that does not melt but whose properties are altered by heat is called the:</p>
+                    <label><input type="radio" name="q1" value="a"> Fusion Zone</label>
+                    <label><input type="radio" name="q1" value="b"> Heat Affected Zone (HAZ)</label>
+                    <label><input type="radio" name="q1" value="c"> Parent Metal</label>
+                    <label><input type="radio" name="q1" value="d"> Weld Puddle</label>
+                </div>
+                <div class="question">
+                    <p>2. What is the primary purpose of preheating a high-carbon steel part before welding?</p>
+                    <label><input type="radio" name="q2" value="a"> To clean the part.</label>
+                    <label><input type="radio" name="q2" value="b"> To make the arc start easier.</label>
+                    <label><input type="radio" name="q2" value="c"> To slow down the cooling rate and prevent a brittle HAZ.</label>
+                    <label><input type="radio" name="q2" value="d"> To increase the travel speed.</label>
+                </div>
+                <div class="question">
+                    <p>3. When welding stainless steel, a primary concern is to avoid "sensitization," which reduces its:</p>
+                    <label><input type="radio" name="q3" value="a"> Corrosion Resistance</label>
+                    <label><input type="radio" name="q3" value="b"> Weight</label>
+                    <label><input type="radio" name="q3" value="c"> Strength</label>
+                    <label><input type="radio" name="q3" value="d"> Hardness</label>
+                </div>
+                <div class="question">
+                    <p>4. Which material is known for being extremely brittle and almost always requires extensive preheating and slow cooling to prevent cracking?</p>
+                    <label><input type="radio" name="q4" value="a"> Mild Steel</label>
+                    <label><input type="radio" name="q4" value="b"> Stainless Steel</label>
+                    <label><input type="radio" name="q4" value="c"> Aluminium</label>
+                    <label><input type="radio" name="q4" value="d"> Cast Iron</label>
+                </div>
+                <div class="question">
+                    <p>5. What is the biggest challenge when welding aluminium?</p>
+                    <label><input type="radio"name="q5" value="a"> It is too heavy.</label>
+                    <label><input type="radio" name="q5" value="b"> It is magnetic.</label>
+                    <label><input type="radio" name="q5" value="c"> Removing the high-melting-point oxide layer.</label>
+                    <label><input type="radio" name="q5" value="d"> It doesn't conduct heat well.</label>
+                </div>
+                 <div class="question">
+                    <p>6. The AC (Alternating Current) setting on a TIG welder is essential for welding aluminium because it provides a:</p>
+                    <label><input type="radio" name="q6" value="a"> Hotter arc</label>
+                    <label><input type="radio" name="q6" value="b"> Cleaning action to remove the oxide layer</label>
+                    <label><input type="radio" name="q6" value="c"> Faster travel speed</label>
+                    <label><input type="radio" name="q6" value="d"> Quieter arc</label>
+                </div>
+                <div class="question">
+                    <p>7. Welding a high-carbon tool steel without proper procedure is risky because:</p>
+                    <label><input type="radio" name="q7" value="a"> The weld won't be strong enough.</label>
+                    <label><input type="radio" name="q7" value="b"> It will lose its magnetism.</label>
+                    <label><input type="radio" name="q7" value="c"> The weld will be too soft.</label>
+                    <label><input type="radio" name="q7" value="d"> The HAZ can become extremely hard and brittle.</label>
+                </div>
+                 <div class="question">
+                    <p>8. Specialized nickel-based electrodes are most commonly used for welding which material?</p>
+                    <label><input type="radio" name="q8" value="a"> Cast Iron</label>
+                    <label><input type="radio" name="q8" value="b"> Aluminium</label>
+                    <label><input type="radio" name="q8" value="c"> Mild Steel</label>
+                    <label><input type="radio" name="q8" value="d"> Stainless Steel</label>
+                </div>
+                <div class="question">
+                    <p>9. A welder notices that their stainless steel sheet is warping and twisting significantly during welding. This is likely because:</p>
+                    <label><input type="radio" name="q9" value="a"> They are using the wrong polarity.</label>
+                    <label><input type="radio" name="q9" value="b"> The shielding gas is wrong.</label>
+                    <label><input type="radio" name="q9" value="c"> Their heat input is too high or poorly managed.</label>
+                    <label><input type="radio" name="q9" value="d"> The material is not actually stainless steel.</label>
+                </div>
+                <div class="question">
+                    <p>10. If a weld has insufficient penetration, what process parameter is the most likely cause?</p>
+                    <label><input type="radio" name="q10" value="a"> Too much preheat.</label>
+                    <label><input type="radio" name="q10" value="b"> Heat input (current) was too low, or travel speed was too fast.</label>
+                    <label><input type="radio" name="q10" value="c"> The wrong electrode was used.</label>
+                    <label><input type="radio" name="q10" value="d"> The work clamp was too tight.</label>
+                </div>
+                <button type="submit" id="submit-btn">Check Answers</button>
+            </form>
+            <div id="quiz-results"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Welding Information Hub</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
