@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 6: Welding Defects & Testing</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Module 6: Welding Defects & Testing - The Weld Detective</h1>
+        <a href="index.html" class="back-link">&larr; Back to Directory</a>
+    </header>
+
+    <main class="content-page">
+        <article class="theory-section">
+            <p>So, you've laid down a perfect-looking weld. But is it truly perfect? Welcome to the world of weld inspection, where you become part detective, part doctor. Your job is to hunt for hidden flaws (defects) that could compromise the integrity of the entire structure. This isn't just about looks; it's about safety and reliability.</p>
+
+            <!-- ======================= DEFECTS ======================= -->
+            <h2>The Rogues' Gallery: Types, Causes, and Remedies of Defects</h2>
+            <p>Every defect tells a story about what went wrong during the welding process. Learning to read these clues is the key to prevention.</p>
+            <img src="images/weld_defects_chart.jpg" alt="A chart showing different types of welding defects like cracks, porosity, and undercut." style="border-radius: 8px; margin: 1rem 0;">
+            
+            <h4>1. Cracks: The Ultimate Failure</h4>
+            <p><strong>The Crime:</strong> A crack is a fracture in the metal and is considered the most dangerous of all defects. It's a tiny failure that can grow under stress and lead to a catastrophic breakdown.</p>
+            <ul>
+                <li><strong>Causes (The Suspects):</strong> High stress from the material shrinking as it cools; using the wrong filler metal; hydrogen getting trapped in the steel (hydrogen embrittlement); cooling the weld too quickly.</li>
+                <li><strong>Inspection:</strong> Can sometimes be seen visually, but tiny cracks hide from the naked eye and require tests like Dye Penetrant or Radiography.</li>
+                <li><strong>Remedy (The Fix):</strong> The only remedy is to completely remove the cracked area by grinding and then re-weld it using the correct procedure (proper preheat, correct filler metal, and controlled cooling).</li>
+            </ul>
+
+            <h4>2. Porosity: The Swiss Cheese Effect</h4>
+            <p><strong>The Crime:</strong> Small, round holes or cavities trapped within the weld metal, caused by gas bubbles that couldn't escape before the metal solidified.</p>
+            <ul>
+                <li><strong>Causes:</strong> Contamination is the number one cause! Moisture, oil, rust, or paint on the base metal turns into gas in the arc. Other causes include inadequate shielding gas flow in MIG/TIG or a damaged flux coating on a stick electrode.</li>
+                <li><strong>Inspection:</strong> Surface porosity is visible. Internal porosity requires Ultrasonic or Radiography tests.</li>
+                <li><strong>Remedy:</strong> Grind out the affected area and re-weld. Prevention is key: thoroughly clean the base metal and check your shielding gas system.</li>
+            </ul>
+
+            <h4>3. Undercut: The Dangerous Ditch</h4>
+            <p><strong>The Crime:</strong> A groove melted into the base metal at the edge ("toe") of the weld that hasn't been filled in. This ditch creates a stress concentration point, making it a prime location for a crack to start.</p>
+            <ul>
+                <li><strong>Causes:</strong> Using too high a current (too much heat); moving the torch too fast; using an incorrect electrode angle.</li>
+                <li><strong>Inspection:</strong> Easily visible to the naked eye.</li>
+                <li><strong>Remedy:</strong> If minor, it can sometimes be fixed by laying a small, careful weld bead to fill the groove. If severe, it must be ground out and re-welded.</li>
+            </ul>
+            
+            <h4>4. Lack of Fusion / Penetration: The Hidden Weakness</h4>
+            <p><strong>The Crime:</strong> This is a sneaky, internal defect where the weld metal fails to completely fuse with the base metal or fails to reach the root of the joint. It creates a hidden weak spot that can easily fail under load.</p>
+            <ul>
+                <li><strong>Causes:</strong> Not enough heat! The current was too low, the travel speed was too fast, or the joint design was poor (e.g., the gap was too small).</li>
+                <li><strong>Inspection:</strong> Almost impossible to see visually. This is a primary target for Ultrasonic and Radiography tests.</li>
+                <li><strong>Remedy:</strong> The joint must be completely ground out from the back side (back-gouging) and re-welded, or completely removed and done over.</li>
+            </ul>
+
+            <hr>
+
+            <!-- ======================= TESTING ======================= -->
+            <h2>The Inspection Toolkit: Non-Destructive Testing (NDT)</h2>
+            <p>How do we find these hidden criminals without cutting the part open? We use Non-Destructive Testing (NDT)—a set of techniques that act like medical diagnostic tools for welds.</p>
+            
+            <h3>1. Visual Inspection (VT): The Physical Check-Up</h3>
+            <p>This is the first, most important, and most widely used test. A trained inspector uses their eyes, sometimes with a magnifying glass and special gauges, to perform a check-up on the finished weld.</p>
+            <img src="images/visual_inspection_gauges.jpg" alt="An inspector using special welding gauges to measure a fillet weld's size." style="border-radius: 8px; margin: 1rem 0;">
+            <ul>
+                <li><strong>How it Works:</strong> The inspector looks for surface cracks, porosity, undercut, and checks if the weld is the correct size and shape according to the engineering blueprint.</li>
+                <li><strong>Practical Example:</strong> On a construction site, a welding inspector visually inspects every single structural steel connection. If a weld looks wrong, it is flagged for further, more advanced testing.</li>
+                <li><strong>Limitation:</strong> It can only find flaws on the surface.</li>
+            </ul>
+
+            <h3>2. Dye Penetrant (DP) Test: The Bleeding Test</h3>
+            <p>This method is a simple but incredibly effective way to make invisible surface cracks "bleed" and reveal themselves.</p>
+            <img src="images/dye_penetrant_test.jpg" alt="A bright red line showing a crack revealed by a dye penetrant test." style="border-radius: 8px; margin: 1rem 0;">
+            <ul>
+                <li><strong>How it Works (3 Steps):</strong> 1) The surface is thoroughly cleaned. 2) A brightly colored (usually red) liquid dye called a penetrant is sprayed on. This dye seeps into any surface-breaking crack. 3) The excess surface dye is cleaned off, and a thin white powder called a developer is applied. The developer acts like a blotter, pulling the trapped dye out of the crack, making it visible as a sharp red line.</li>
+                <li><strong>Practical Example:</strong> After a critical repair on an aluminum aircraft component, an NDT technician performs a DP test to ensure there are no microscopic fatigue cracks that could grow in flight.</li>
+                <li><strong>Limitation:</strong> Only works for defects open to the surface; it cannot find internal flaws.</li>
+            </ul>
+
+            <h3>3. Ultrasonic Test (UT): The Sonar for Steel</h3>
+            <p>UT uses high-frequency sound waves to find internal defects, much like a submarine uses sonar to find objects underwater or a doctor uses an ultrasound to see inside the body.</p>
+             <img src="images/ultrasonic_testing_in_action.jpg" alt="An NDT technician moving an ultrasonic probe along a large pipe weld." style="border-radius: 8px; margin: 1rem 0;">
+            <ul>
+                <li><strong>How it Works:</strong> A small probe sends a pulse of sound into the weld. The sound travels through the metal and bounces off the back wall, creating an echo on a screen. If the sound hits a defect (like a crack or slag), it bounces back sooner, creating an extra "blip" on the screen. A skilled operator can read these blips to determine the defect's size, shape, and exact location.</li>
+                <li><strong>Practical Example:</strong> On a high-pressure gas pipeline, every single girth weld is inspected with automated UT. This ensures there are no hidden internal flaws that could lead to a dangerous leak.</li>
+                <li><strong>Limitation:</strong> Requires a highly skilled and certified operator to interpret the signals correctly.</li>
+            </ul>
+
+            <h3>4. Radiography Test (RT): The X-Ray for Welds</h3>
+            <p>This is the gold standard for seeing inside a weld. It produces a permanent picture of the weld's internal structure, just like a medical X-ray shows your bones.</p>
+            <img src="images/radiographic_film.jpg" alt="An X-ray film of a weld, showing dark spots which indicate internal porosity." style="border-radius: 8px; margin: 1rem 0;">
+            <ul>
+                <li><strong>How it Works:</strong> A source of radiation (an X-ray tube or a radioactive isotope) is placed on one side of the weld, and a sheet of special photographic film is placed on the other. The radiation passes through the weld. Solid steel blocks a lot of radiation, so the film stays light. If there's a less dense defect like a gas pore (porosity) or slag, more radiation gets through, creating a darker spot on the developed film.</li>
+                <li><strong>Practical Example:</strong> To certify the welds on a nuclear power plant's pressure vessel, radiography is used to create a complete, permanent film record, proving that the welds are free from any internal flaws.</li>
+                <li><strong>Limitation:</strong> Involves radiation, so strict safety precautions are required. It can also have difficulty finding certain types of cracks depending on their orientation.</li>
+            </ul>
+        </article>
+
+        <!-- ======================= QUIZ ======================= -->
+        <section class="quiz-section">
+            <h2>Test Your Knowledge</h2>
+            <form id="quiz-form" data-answers='["b", "c", "d", "a", "b", "c", "d", "a", "b", "c"]'>
+                <div class="question">
+                    <p>1. Which defect is considered the most severe because it can grow under stress and lead to catastrophic failure?</p>
+                    <label><input type="radio" name="q1" value="a"> Porosity</label>
+                    <label><input type="radio" name="q1" value="b"> Cracks</label>
+                    <label><input type="radio" name="q1" value="c"> Undercut</label>
+                    <label><input type="radio" name="q1" value="d"> Spatter</label>
+                </div>
+                <div class="question">
+                    <p>2. A welder notices "Swiss cheese" like bubbles in their weld bead. What is the most likely cause of this porosity?</p>
+                    <label><input type="radio" name="q2" value="a"> Travel speed was too slow.</label>
+                    <label><input type="radio" name="q2" value="b"> The current was too high.</label>
+                    <label><input type="radio" name="q2" value="c"> Contamination (moisture, oil, rust) on the base metal.</label>
+                    <label><input type="radio" name="q2" value="d"> The work clamp was loose.</label>
+                </div>
+                <div class="question">
+                    <p>3. An inspector finds a hidden internal flaw where the weld metal didn't fully bond to the side of the joint. This defect is called:</p>
+                    <label><input type="radio" name="q3" value="a"> Porosity</label>
+                    <label><input type="radio" name="q3" value="b"> Undercut</label>
+                    <label><input type="radio" name="q3" value="c"> A crack</label>
+                    <label><input type="radio" name="q3" value="d"> Lack of Fusion</label>
+                </div>
+                <div class="question">
+                    <p>4. Which NDT method is the first and most common line of defense, used to check for surface flaws and correct weld size?</p>
+                    <label><input type="radio" name="q4" value="a"> Visual Test (VT)</label>
+                    <label><input type="radio" name="q4" value="b"> Ultrasonic Test (UT)</label>
+                    <label><input type="radio" name="q4" value="c"> Radiography Test (RT)</label>
+                    <label><input type="radio" name="q4" value="d"> Dye Penetrant Test (DP)</label>
+                </div>
+                <div class="question">
+                    <p>5. An inspector wants to find microscopic surface cracks on a non-magnetic material. Which test is perfect for making these cracks "bleed" and become visible?</p>
+                    <label><input type="radio" name="q5" value="a"> Radiography Test (RT)</label>
+                    <label><input type="radio" name="q5" value="b"> Dye Penetrant Test (DP)</label>
+                    <label><input type="radio" name="q5" value="c"> Ultrasonic Test (UT)</label>
+                    <label><input type="radio" name="q5" value="d"> Visual Test (VT)</label>
+                </div>
+                 <div class="question">
+                    <p>6. Which testing method uses high-frequency sound waves to detect internal defects?</p>
+                    <label><input type="radio" name="q6" value="a"> Visual Test (VT)</label>
+                    <label><input type="radio" name="q6" value="b"> Dye Penetrant Test (DP)</label>
+                    <label><input type="radio" name="q6" value="c"> Ultrasonic Test (UT)</label>
+                    <label><input type="radio" name="q6" value="d"> Radiography Test (RT)</label>
+                </div>
+                <div class="question">
+                    <p>7. An inspector is looking at a radiographic film of a weld. A dark, round spot on the film most likely indicates:</p>
+                    <label><input type="radio" name="q7" value="a"> A crack</label>
+                    <label><input type="radio" name="q7" value="b"> Undercut</label>
+                    <label><input type="radio" name="q7" value="c"> Lack of Fusion</label>
+                    <label><input type="radio" name="q7" value="d"> Porosity</label>
+                </div>
+                 <div class="question">
+                    <p>8. Which two methods are primarily used for detecting INTERNAL defects?</p>
+                    <label><input type="radio" name="q8" value="a"> Ultrasonic (UT) and Radiography (RT)</label>
+                    <label><input type="radio" name="q8" value="b"> Visual (VT) and Dye Penetrant (DP)</label>
+                    <label><input type="radio" name="q8" value="c"> Dye Penetrant (DP) and Ultrasonic (UT)</label>
+                    <label><input type="radio" name="q8" value="d"> Visual (VT) and Radiography (RT)</label>
+                </div>
+                <div class="question">
+                    <p>9. A welder is using SMAW (Stick) to weld multiple layers (passes). To prevent slag inclusions, what is the most critical action they must take?</p>
+                    <label><input type="radio" name="q9" value="a"> Use a higher amperage.</label>
+                    <label><input type="radio" name="q9" value="b"> Thoroughly clean the slag from each pass before starting the next.</label>
+                    <label><input type="radio" name="q9" value="c"> Move much faster.</label>
+                    <label><input type="radio" name="q9" value="d"> Use a longer electrode.</label>
+                </div>
+                <div class="question">
+                    <p>10. The primary limitation of both Visual Test (VT) and Dye Penetrant (DP) Test is that they:</p>
+                    <label><input type="radio" name="q10" value="a"> Are very expensive.</label>
+                    <label><input type="radio" name="q10" value="b"> Require a highly skilled operator.</label>
+                    <label><input type="radio" name="q10" value="c"> Cannot find internal defects.</label>
+                    <label><input type="radio" name="q10" value="d"> Are very slow to perform.</label>
+                </div>
+                <button type="submit" id="submit-btn">Check Answers</button>
+            </form>
+            <div id="quiz-results"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Welding Information Hub</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
